@@ -1,0 +1,39 @@
+{
+  "name": "DPhotoBrowserSwift",
+  "version": "1.0",
+  "summary": "A short description of DPhotoBrowserSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DK/DPhotoBrowserSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DK": "jdbtechs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DK/DPhotoBrowserSwift.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "DPhotoBrowserSwift/Classes/**/*",
+  "resource_bundles": {
+    "DPhotoBrowserSwift": [
+      "DPhotoBrowserSwift/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "DACircularProgress": [
+
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - DPhotoBrowserSwift (1.0):
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - DPhotoBrowserSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DPhotoBrowserSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DPhotoBrowserSwift: 2294de9a324b8bd980e0cbe98b8512f92479564c
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: bcac4d161608d8ea68f73335c4d05d86f00e3d64
+
+COCOAPODS: 1.10.1

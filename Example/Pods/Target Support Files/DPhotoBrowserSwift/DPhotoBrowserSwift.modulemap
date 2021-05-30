@@ -1,0 +1,6 @@
+framework module DPhotoBrowserSwift {
+  umbrella header "DPhotoBrowserSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
