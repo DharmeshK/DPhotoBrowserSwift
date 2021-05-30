@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DPhotoBrowserSwift'
-  s.version          = '1.0'
+  s.version          = '1.0.2'
   s.summary          = 'A simple iOS photo and video browser with optional grid view, captions and selections.'
   
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'DK' => 'jdbtechs@gmail.com' }
   s.source           = { :git => 'https://github.com/DharmeshK/DPhotoBrowserSwift.git', :tag => s.version }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '12.1'
   s.swift_versions = ['5.1', '5.2', '5.3']
   s.source_files = 'DPhotoBrowserSwift/Classes/**/*'
   
