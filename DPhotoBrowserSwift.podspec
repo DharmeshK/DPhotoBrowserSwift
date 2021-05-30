@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
                         Photos can be zoomed and panned, and optional (customisable) captions can be displayed.
                        DESC
 
-  s.homepage         = 'https://github.com/DK/DPhotoBrowserSwift'
+  s.homepage         = 'https://github.com/DharmeshK/DPhotoBrowserSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DK' => 'jdbtechs@gmail.com' }
-  s.source           = { :git => 'https://github.com/DK/DPhotoBrowserSwift.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/DharmeshK/DPhotoBrowserSwift.git', :tag => s.version }
 
   s.ios.deployment_target = '12.0'
-
+  s.swift_versions = ['5.1', '5.2', '5.3']
   s.source_files = 'DPhotoBrowserSwift/Classes/**/*'
   
    s.resource_bundles = {

